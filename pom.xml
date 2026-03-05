@@ -37,7 +37,7 @@
         <plugin>
             <groupId>com.microsoft.playwright</groupId>
             <artifactId>playwright-maven-plugin</artifactId>
-            <version>1.46.0</version>
+            <version>1.38.0</version>
         </plugin>
 
         <!-- Needed for JUnit 5 -->
