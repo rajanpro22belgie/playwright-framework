@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    triggers {
-        cron('0 2 * * *')   // run every day at 02:00 (server time)
-    }
-
     tools {
         jdk 'jdk17'
         maven 'maven3'
@@ -19,13 +15,13 @@ pipeline {
 
         stage('Install Playwright Browsers') {
             steps {
-                bat 'mvn -q exec:java -Dexec.mainClass="com.microsoft.playwright.CLI" -Dexec.args="install"'
+                bat 'mvn playwright:install'
             }
         }
 
         stage('Run Tests') {
             steps {
-                sh 'mvn clean test'
+                bat 'mvn clean test'
             }
         }
 
