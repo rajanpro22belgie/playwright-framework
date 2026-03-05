@@ -1,0 +1,28 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Playwright browsers
+ms-playwright/
+**/ms-playwright/
+**/playwright/.cache/
+
+# Reports
+reports/
+test-output/
+*.html
+*.png
+
+# Logs
+*.log
+
+# IDE
+.idea/
+*.iml
+*.classpath
+*.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db

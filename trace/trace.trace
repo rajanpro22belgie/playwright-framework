@@ -1,0 +1,2 @@
+{"version":6,"type":"context-options","browserName":"chromium","options":{"acceptDownloads":"accept","viewport":{"width":1280,"height":720}},"platform":"win32","wallTime":1772715711381,"sdkLanguage":"java","testIdAttributeName":"data-testid"}
+{"type":"screencast-frame","pageId":"page@02979bdbd4ecec43d9be7543d4411031","sha1":"page@02979bdbd4ecec43d9be7543d4411031-1772715711.443381.jpeg","width":1282,"height":643.3333740234375,"timestamp":2063.729}
